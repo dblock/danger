@@ -8,8 +8,11 @@ gem "bundler"
 gem "chandler"
 gem "danger-gitlab"
 gem "danger-junit", "~> 0.5"
+gem "danger-pr-comment", "~> 0.1", require: false
 gem "faraday-http-cache", ">= 2.5", "< 4.0"
 gem "fuubar", "~> 2.5"
+# git 6 removed Git::Base, which Danger still uses.
+gem "git", "< 6"
 gem "guard", "~> 2.16"
 gem "guard-rspec", "~> 4.7"
 gem "guard-rubocop", "~> 1.2"
