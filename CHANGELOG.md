@@ -11,6 +11,8 @@
 ## master
 
 <!-- Your comment below here -->
+* Default `danger init` to GitHub Actions without a personal access token when no CI is detected in a GitHub repository, including support for pull requests from forks - [@dblock](https://github.com/dblock) [#1558](https://github.com/danger/danger/pull/1558)
+* Detect existing CI in `danger init`, preserve existing configuration, and support non-Ruby projects with a tooling Gemfile - [@dblock](https://github.com/dblock) [#1558](https://github.com/danger/danger/pull/1558)
 * Allow faraday-http-cache 3.x - [@JuanitoFatas](https://github.com/JuanitoFatas) [#1553](https://github.com/danger/danger/issues/1553)
 <!-- Your comment above here -->
 
